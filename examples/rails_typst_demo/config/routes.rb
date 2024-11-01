@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   get "typst_examples", to: "typst_examples#index"
   get "typst_examples/simple", to: "typst_examples#simple"
   get "typst_examples/simple_erb", to: "typst_examples#simple_erb"
+  get "typst_examples/simple_with_files", to: "typst_examples#simple_with_files"
 end

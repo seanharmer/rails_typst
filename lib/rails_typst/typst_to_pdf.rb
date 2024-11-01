@@ -6,7 +6,7 @@ module RailsTypst
       @config ||= {
         base_dir: Rails.root.join(Rails.root, "tmp", "rails_typst"),
         work_dir: ->() { "#{Time.now.strftime("%Y%m%d-%H%M%S.%L")}" },
-        preserve_work_dir: true,
+        preserve_work_dir: false,
         supporting_files: [],
       }
     end
